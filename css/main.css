@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+	margin: 60px auto;
+	width: 70%;
+	text-align: center;
+}
+h1{
+	align-content:center;
+	font:monospace;
+}
+.copyright {
+	text-align: right;
+}
+
+.intro {
+	text-align:justify;
+	font-family:Cambria;
+}
+
+.slogan {
+	font-family:Impact;
+}
+
+.top_menus {
+	float: center;
+	clear: both;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	color: #456;
+	margin: 0 0 15px 0;
+}
+.avatar {
+	width: 250px;
+	margin: 10px;
+	border: 2px solid blue;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	-webkit-transition: all 3s ease-in 5s;
+	-o-transition: all 3s ease-in 5s;
+	transition: all 3s ease-in 5s;
+}
+.text {
+	font-family:Calibri;
+}.avatar:active {
+	margin-bottom: auto;
+}
+
+.cv{
+	text-align:left;
+}
+.skills{
+}
+.transcript{
+	text-align:left;
+}

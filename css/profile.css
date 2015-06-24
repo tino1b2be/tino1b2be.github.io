@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 .top_menus {
 	text-align:center;
@@ -24,9 +24,17 @@ h3{
 }
 .wrap {
     margin: 0 auto;
-    background: #ddd;
+    
 }
 .exp {
+	border: groove 1px;
+	text-justify: distribute;
+	padding:2px; 
+	background:#ddd;
+	-moz-border-radius-bottomright: 25px 50px;
+	border-bottom-right-radius: 25px 50px;
+}
+.education{
 	border: groove 1px;
 	text-justify: distribute;
 	padding:2px; 

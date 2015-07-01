@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+body {
+	margin: 60px auto;
+	width: 70%;
+	text-align: center;
+}
+.text{
+	padding:20px;
+	text-align: center;
+}
+.copyright {
+	text-align: right;
+}
+
+.top_menus {
+	float: center;
+	clear: both;
+	font-size: 1.4em;
+	line-height: 1.5em;
+	color: #456;
+	margin: 0 0 15px 0;
+}
+.logo{
+	max-width: 70%;
+}
+.photo_pages .link{
+	display: inline-block;
+}
+
+.instagram{
+	max-width:
+}

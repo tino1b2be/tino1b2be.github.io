@@ -1,6 +1,7 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 body {
+    background: url("../graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
 	margin: 60px auto;
 	width: 70%;
 	text-align: center;
@@ -30,6 +31,7 @@ h1{
 	color: #456;
 	margin: 0 0 15px 0;
 }
+/*profile picture*/
 .avatar {
 	width: 250px;
 	margin: 10px;
@@ -55,3 +57,47 @@ h1{
 .transcript{
 	text-align:left;
 }
+.notice{
+	align-content:center;
+}
+/*Social media buttons*/
+.socialMedia{
+	position: relative;
+    margin: auto;
+	
+}
+.social-slide {
+	display:inline-block;
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: none;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+.twitter-hover {
+	background-image: url("/graphics/social_media/twitter-hover.png");
+}
+.github-hover {
+	background-image: url('/graphics/social_media/github-hover.png');
+}
+.facebook-hover {
+	background-image: url('/graphics/social_media/facebook-hover.png');
+}
+.linkedin-hover {
+	background-image: url('/graphics/social_media/linkedin-hover.png');
+}
+.instagram-hover {
+	background-image: url('/graphics/social_media/instagram-hover.png');
+}
+.flickr-hover {
+	background-image: url('/graphics/social_media/flickr-hover.png');
+}
+/*end of social media buttons

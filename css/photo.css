@@ -4,6 +4,7 @@ body {
 	margin: 60px auto;
 	width: 70%;
 	text-align: center;
+	background: url("../graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
 }
 .text{
 	padding:20px;
@@ -21,11 +22,18 @@ body {
 	color: #456;
 	margin: 0 0 15px 0;
 }
+.slide{
+	display:inline-block;
+	width:80%;
+}
+/*bottom links*/
+
+.photo_pages{
+	width: 70%;
+	display: inline-block;
+}
 .logo{
 	max-width: 70%;
-}
-.photo_pages .link{
-	display: inline-block;
 }
 
 .instagram{

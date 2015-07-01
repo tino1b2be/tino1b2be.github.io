@@ -1,28 +1,24 @@
 ﻿@charset "utf-8";
-
 body {
-    background: url("../graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
+	background: url("/graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
 	margin: 60px auto;
 	width: 70%;
 	text-align: center;
 }
-h1{
-	align-content:center;
-	font:monospace;
+h1 {
+	align-content: center;
+	font: monospace;
 }
 .copyright {
 	text-align: right;
 }
-
 .intro {
-	text-align:justify;
-	font-family:Cambria;
+	text-align: justify;
+	font-family: Cambria;
 }
-
 .slogan {
-	font-family:Impact;
+	font-family: Impact;
 }
-
 .top_menus {
 	float: center;
 	clear: both;
@@ -44,30 +40,29 @@ h1{
 	transition: all 3s ease-in 5s;
 }
 .text {
-	font-family:Calibri;
-}.avatar:active {
+	font-family: Calibri;
+}
+.avatar:active {
 	margin-bottom: auto;
 }
-
-.cv{
-	text-align:left;
+.cv {
+	text-align: left;
 }
-.skills{
+.skills {
 }
-.transcript{
-	text-align:left;
+.transcript {
+	text-align: left;
 }
-.notice{
-	align-content:center;
+.notice {
+	align-content: center;
 }
 /*Social media buttons*/
-.socialMedia{
+.socialMedia {
 	position: relative;
-    margin: auto;
-	
+	margin: auto;
 }
 .social-slide {
-	display:inline-block;
+	display: inline-block;
 	height: 48px;
 	width: 48px;
 	margin: 10px;

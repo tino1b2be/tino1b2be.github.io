@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
+	background: url("../graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
 }
 .top_menus {
 	text-align:center;

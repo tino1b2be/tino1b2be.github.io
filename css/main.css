@@ -19,14 +19,7 @@ h1 {
 .slogan {
 	font-family: Impact;
 }
-.top_menus {
-	float: center;
-	clear: both;
-	font-size: 1.4em;
-	line-height: 1.5em;
-	color: #456;
-	margin: 0 0 15px 0;
-}
+
 /*profile picture*/
 .avatar {
 	width: 250px;
@@ -96,3 +89,25 @@ h1 {
 	background-image: url('/graphics/social_media/flickr-hover.png');
 }
 /*end of social media buttons
+/*******MENUS*****/
+.top_menus{
+	position: relative;
+	margin: auto;
+}
+ul li {
+	display:inline-block;
+	float: none;
+    list-style: none;
+    margin-right: 1em; 
+}
+li a {
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+}
+ 
+li a:hover {
+    color: #7eb9be;
+}

@@ -67,12 +67,14 @@ h3 {
     height: 100%;
     padding: 5px 5px 0px 0px;
 }
-
+.linkedIn{
+	background-color:#C5BCFF;
+}
 .pic {
     float: left;
     max-width: 100%;
     max-height: 100%;
-    padding: 1px;
+    padding: 0.1em;
     border: 1px solid #021a40;
     background-color: #0000FF;
 }

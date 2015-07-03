@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 80%;
+    height: 100%;
 	background: url("../graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
 }
 .top_menus {
@@ -31,10 +32,9 @@ h3{
     text-align:center;
 }
 /*summary and profile picture*/
-.topWrap{
-	margin: 0 auto;
-}
+
 .summary{
+	text-align: justify;
 	float:left;
 	width:65%;
 }
@@ -43,15 +43,20 @@ h3{
 	float:right;
 	width:32%;
 	height:100%;
+	padding: 5px 5px 0px 0px;
 }
 .pic{
+	float: left;
 	max-width:100%;
 	max-height:100%;
+	padding:1px;
+   	border:1px solid #021a40;
+   	background-color: #0000FF;
 }
 
-/*profile and sidebar wrap*/
+/*summary, profile and sidebar wrap*/
 .wrap {
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 /*main profile column*/
 .main {
@@ -61,7 +66,7 @@ h3{
 .exp {
 	border: groove 1px;
 	text-justify: distribute;
-	padding:2px; 
+	padding:2px 2px 2px 5px; 
 	background:#ddd;
 	-moz-border-radius-bottomright: 25px 50px;
 	border-bottom-right-radius: 25px 50px;
@@ -107,7 +112,7 @@ td {
    	background:#999;
 }
 .copyright{
-	visibility:hidden;
+	visibility: hidden;
 	position:fixed;
 	text-align:right;
 }

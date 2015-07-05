@@ -1,26 +1,48 @@
 ﻿@charset "utf-8";
 
+@font-face{
+	font-family: 'Majesti Banner SC';
+	src: url('../fonts/Majesti Banner/SF_Archery_Black_SC.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bender-Inline';
+    src: url('../fonts/Bender/Bender-Inline.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body .content {
+    height: 100%;
+}
 body {
 	margin: 60px auto;
-	width: 70%;
+	width: 80%;
 	text-align: center;
 	background: url("../graphics/cloth_alike.png") repeat scroll 0% 0% transparent;
 }
+/*LOGO*/
+.logo:hover ,.flk:hover, .ig:hover{
+	/*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 .text{
-	padding:20px;
+	font-family: 'Lucida Bright', 'Footlight MT Light', verdana;
+	margin: 1em 0em 1em 0em;
+	display: inline-block;
+	width: 80%;
 	text-align: center;
 }
 .copyright {
 	text-align: right;
-}
-
-.top_menus {
-	float: center;
-	clear: both;
-	font-size: 1.4em;
-	line-height: 1.5em;
-	color: #456;
-	margin: 0 0 15px 0;
 }
 .slide{
 	display:inline-block;
@@ -29,13 +51,65 @@ body {
 /*bottom links*/
 
 .photo_pages{
-	width: 70%;
+	width: 100%;
+}
+.flk{
 	display: inline-block;
+	padding: 0 5% 0 5%;
 }
-.logo{
-	max-width: 70%;
+.ig {
+	display: inline-block;
+	padding: 0 5% 0 5%;
 }
-
 .instagram{
 	max-width:
 }
+/* TOP MENUS*/
+.top_menus{
+	position: relative;
+	margin: auto;
+}
+.nav, .menu {
+	display:inline-block;
+	float: none;
+    list-style: none;
+    margin-right: 0.6em; 
+    font-family: "Bender-Inline", "Castellar" , helvetica;  
+}
+.menu, .link {
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-size: 1.4em;
+    padding: 0.5px;
+}
+ 
+.menu, .link:hover {
+    color: blue;
+}
+.left a:hover {
+     
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}
+/* END OF MENU */

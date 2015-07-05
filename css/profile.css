@@ -17,6 +17,8 @@ html, body .content {
 }
 
 body {
+	font-family: helvetica;
+	font-size: 0.95em;
     margin: 60px auto;
     width: 80%;
     height: 100%;
@@ -224,7 +226,8 @@ td {
 }
 
 .copyright {
-    visibility: hidden;
+	padding-top: 2em;
+    visibility: visible;
     position: fixed;
     text-align: right;
 }
